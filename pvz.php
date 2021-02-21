@@ -71,4 +71,12 @@ foreach($masyvas2 as $i => $v) {
 }
 print_r($masyvas2);
 */
+
+/*
+echo "random color generator: <br>";
+for ($i = 0; $i < 10; $i++) {
+    $color = dechex(rand(0x000000, 0xFFFFFF));
+    echo "<h1 style= 'color:#$color';>Lorem Ipsum is simply dummy text of the printing</h1>";
+}
+*/
 ?>
