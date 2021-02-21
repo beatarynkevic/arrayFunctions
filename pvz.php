@@ -79,4 +79,33 @@ for ($i = 0; $i < 10; $i++) {
     echo "<h1 style= 'color:#$color';>Lorem Ipsum is simply dummy text of the printing</h1>";
 }
 */
+
+// $charpool = ['#', '%', '+', '*', '@', '裡'];
+// for($i = 0; $i < count($charpool); $i++) {
+//     for($j = 0; $j < count($charpool); $j++) {
+//         $color = dechex(rand(0x000000, 0xFFFFFF));
+//         $offset = rand(0, count($charpool)-1); //random pozicija sugeneruoja
+//             $rndchar = $charpool[$offset];
+//         echo "<span style='color:#$color;font-size: 30px';>$rndchar </span> ";
+//     }
+//     echo '<br>';
+// }
+
+//array_multisort ,jeigu du masyvai tai abu turi buti tokio pacio ilgio !!!
+// $ar1 = [1, 5, 8, 2, 4, 3, 0];
+// $ar2 = [5, 1, 4, 3, 2, 10, 0];
+// print_r($ar1);
+// print_r($ar2);
+// array_multisort($ar1, $ar2);
+// print_r($ar1);
+// print_r($ar2);
+
+//sorting multi-dimensional array
+// $ar = [
+//     ["s", "f", 100, "v", "a"],
+//     [1, 2, "2", 3, 1]
+// ];
+// array_multisort($ar[0], SORT_ASC, SORT_STRING, //SORT_ASC -rusiuoja kylanciai, 
+//              $ar[1], SORT_NUMERIC, SORT_DESC); //SORT_DESC -rusiuoja mazejimo tvarka
+// print_r($ar);
 ?>
